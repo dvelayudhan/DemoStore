@@ -166,3 +166,148 @@
 2016-07-20 12:36:15,750 INFO  [Log] Checking if LogOut link is displayed 
 2016-07-20 12:36:26,156 INFO  [Log] User is logged in  
 2016-07-20 12:36:26,156 INFO  [Log] -EndOfStep- 
+2016-07-20 12:39:41,653 INFO  [Log] $$$ Running step :I load the website url : code running 
+2016-07-20 12:39:41,656 INFO  [Log] Load url :http://store.demoqa.com/ 
+2016-07-20 12:39:47,900 INFO  [Log] Driver intialised 
+2016-07-20 12:39:55,690 INFO  [Log] Opened the site 
+2016-07-20 12:39:55,691 INFO  [Log] -EndOfStep- 
+2016-07-20 12:39:55,702 INFO  [Log] $$$ Running step :I navigate to Login page : code running 
+2016-07-20 12:40:01,363 INFO  [Log] Clicked on MyAccount link 
+2016-07-20 12:40:01,363 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:01,365 INFO  [Log] $$$ Running step :I enter valid username 
+2016-07-20 12:40:01,534 INFO  [Log] Entered username 
+2016-07-20 12:40:01,534 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:01,536 INFO  [Log] $$$ Running step :I enter valid password 
+2016-07-20 12:40:01,682 INFO  [Log] Entered password 
+2016-07-20 12:40:01,682 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:01,684 INFO  [Log] $$$ Running step :I click on Login button 
+2016-07-20 12:40:01,808 INFO  [Log] Clicked on Login button 
+2016-07-20 12:40:01,808 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:01,810 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:40:01,820 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:40:15,794 INFO  [Log] User is logged in  
+2016-07-20 12:40:15,794 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:15,806 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:40:15,826 INFO  [Log] User is at home page 
+2016-07-20 12:40:15,826 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:15,829 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:40:18,856 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:40:18,856 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:18,861 INFO  [Log] $$$ Running step :I can see a list of Products : Code running 
+2016-07-20 12:40:18,992 INFO  [Log] Number of products :3 
+2016-07-20 12:40:18,992 INFO  [Log] Product list is displayed 
+2016-07-20 12:40:21,495 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:21,505 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:40:21,534 INFO  [Log] User is at home page 
+2016-07-20 12:40:21,534 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:21,540 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:40:26,180 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:40:26,180 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:26,183 INFO  [Log] $$$ Running step :I click on item name to see details : Code running 
+2016-07-20 12:40:26,306 INFO  [Log] Set expected value of product title 
+2016-07-20 12:40:29,747 INFO  [Log] Clicked on Product Title 
+2016-07-20 12:40:29,758 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:29,760 INFO  [Log] $$$ Running step :I can see the product Details : code running 
+2016-07-20 12:40:29,761 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:40:29,841 INFO  [Log] Expected product is : iPhone 5 
+2016-07-20 12:40:29,841 INFO  [Log] Displayed product is : iPhone 5 
+2016-07-20 12:40:29,841 INFO  [Log] Details are displayed as expected 
+2016-07-20 12:40:34,206 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:34,213 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:40:34,226 INFO  [Log] User is at home page 
+2016-07-20 12:40:34,226 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:34,227 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:40:38,017 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:40:38,018 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:38,020 INFO  [Log] $$$ Running step :I click on item name to see details : Code running 
+2016-07-20 12:40:38,129 INFO  [Log] Set expected value of product title 
+2016-07-20 12:40:43,821 INFO  [Log] Clicked on Product Title 
+2016-07-20 12:40:43,830 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:43,831 INFO  [Log] $$$ Running step :I click on Add To Cart option : code running 
+2016-07-20 12:40:43,984 INFO  [Log] Clicked on Add To Cart button 
+2016-07-20 12:40:44,007 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:44,012 INFO  [Log] $$$ Running step :I can see the success message : code running 
+2016-07-20 12:40:44,205 INFO  [Log] Pop up is displayed 
+2016-07-20 12:40:45,651 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:40:45,651 INFO  [Log] Correct popup message displayed 
+2016-07-20 12:40:45,928 INFO  [Log] Clicked on Continue shopping link 
+2016-07-20 12:40:48,395 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:48,400 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:40:48,497 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:40:48,500 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:40:52,018 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:40:52,018 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:52,027 INFO  [Log] $$$ Running step :I can see the item\(s\) in my cart : code running 
+2016-07-20 12:40:52,250 INFO  [Log] Checkout progress bar is displayed 
+2016-07-20 12:40:52,379 INFO  [Log] Number of rows in products table :1 
+2016-07-20 12:40:55,454 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:40:55,464 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:40:57,787 INFO  [Log] User is logged in  
+2016-07-20 12:40:57,787 INFO  [Log] -EndOfStep- 
+2016-07-20 12:40:57,789 INFO  [Log] $$$ Running step :I have my personal info stored in my profile : code running 
+2016-07-20 12:41:00,503 INFO  [Log] Clicked on Howdy tab 
+2016-07-20 12:41:00,595 INFO  [Log] Validated that ersonal info is store in profile 
+2016-07-20 12:41:02,790 INFO  [Log] Clicked on OnlineStore tab 
+2016-07-20 12:41:02,798 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:02,800 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:41:02,908 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:41:02,910 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:41:05,591 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:41:05,591 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:05,594 INFO  [Log] $$$ Running step :I click on Continue button : Code running 
+2016-07-20 12:41:05,749 INFO  [Log] Setting product quantity value as : 1 
+2016-07-20 12:41:06,309 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:07,447 INFO  [Log] Infoelement is displayed. 
+2016-07-20 12:41:07,674 INFO  [Log] Firstname is autopupulated correctly : student 
+2016-07-20 12:41:07,849 INFO  [Log] Lastname is autopupulated correctly : tester 
+2016-07-20 12:41:07,849 INFO  [Log] Details are populated correctly 
+2016-07-20 12:41:07,849 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:10,767 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:41:10,774 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:41:14,244 INFO  [Log] User is logged in  
+2016-07-20 12:41:14,245 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:14,247 INFO  [Log] $$$ Running step :I have my personal info stored in my profile : code running 
+2016-07-20 12:41:16,937 INFO  [Log] Clicked on Howdy tab 
+2016-07-20 12:41:17,061 INFO  [Log] Validated that ersonal info is store in profile 
+2016-07-20 12:41:18,938 INFO  [Log] Clicked on OnlineStore tab 
+2016-07-20 12:41:18,945 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:18,946 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:41:19,019 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:41:19,021 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:41:21,223 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:41:21,224 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:21,225 INFO  [Log] $$$ Running step :I click on Continue button : Code running 
+2016-07-20 12:41:21,298 INFO  [Log] Setting product quantity value as : 1 
+2016-07-20 12:41:21,667 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:21,670 INFO  [Log] $$$ Running step :I click on Purchase button : code running 
+2016-07-20 12:41:23,138 INFO  [Log] Info Slid is displayed 
+2016-07-20 12:41:26,787 INFO  [Log] Clicked on Purchase button 
+2016-07-20 12:41:26,792 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:26,795 INFO  [Log] $$$ Running step :I complete the transaction : code running 
+2016-07-20 12:41:26,970 INFO  [Log] Transaction Header title is :Transaction Results 
+2016-07-20 12:41:26,970 INFO  [Log] Transaction header title is displayed 
+2016-07-20 12:41:27,054 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:41:27,054 INFO  [Log] Product title actual value : iPhone 5 
+2016-07-20 12:41:27,054 INFO  [Log] Product title expected value iPhone 5 
+2016-07-20 12:41:27,054 INFO  [Log] Product title is as expected  
+2016-07-20 12:41:27,134 INFO  [Log] Product price actual value : $12.00 
+2016-07-20 12:41:27,134 INFO  [Log] Product price expected value : $12.00 
+2016-07-20 12:41:27,134 INFO  [Log] Product price is as expected 
+2016-07-20 12:41:27,217 INFO  [Log] Product quantity actual value : 1 
+2016-07-20 12:41:27,218 INFO  [Log] Product quantity expected value : 1 
+2016-07-20 12:41:27,218 INFO  [Log] Product quantity is as expected 
+2016-07-20 12:41:27,296 INFO  [Log] Total price actual value : $12.00 
+2016-07-20 12:41:27,296 INFO  [Log] Total price expected value : $12.00 
+2016-07-20 12:41:27,296 INFO  [Log] Total product price is as expected 
+2016-07-20 12:41:27,296 INFO  [Log] All assertions passed : Details are as expected 
+2016-07-20 12:41:29,447 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:41:29,465 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:41:32,166 INFO  [Log] User is logged in  
+2016-07-20 12:41:32,167 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:32,168 INFO  [Log] $$$ Running step :I click on LogOut : code running 
+2016-07-20 12:41:32,283 INFO  [Log] Clicked on log out link 
+2016-07-20 12:41:32,283 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:32,290 INFO  [Log] $$$ Running step :I go to LoginPage : code running 
+2016-07-20 12:41:32,415 INFO  [Log] Navigated to login page 
+2016-07-20 12:41:32,415 INFO  [Log] -EndOfStep- 
+2016-07-20 12:41:32,416 INFO  [Log] Quiting driver 
