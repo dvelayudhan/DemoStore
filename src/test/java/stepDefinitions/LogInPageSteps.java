@@ -17,26 +17,27 @@ import cucumber.api.java.en.When;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyHomePage;
+import util.DataReader;
 import util.DriverFactory;
 import util.Log;
 
 public class LogInPageSteps extends DriverFactory {
 
 
-	@When("^I enter valid username \"([^\"]*)\"$")
-	public void i_enter_valid_username(String username) throws Throwable {
+	@When("^I enter valid username$")
+	public void i_enter_valid_username() throws Throwable {
 		Log.startTestStep("I enter valid username");
 		System.out.println("I enter valid username : code running");
-	    LoginPage.enterUsername(driver,username);
+	    LoginPage.enterUsername(driver,DataReader.readUsername());
 	    System.out.println("End of step");
 	    Log.endTestStep();
 	}
 
-	@When("^I enter valid password \"([^\"]*)\"$")
-	public void i_enter_valid_password(String password) throws Throwable {
+	@When("^I enter valid password$")
+	public void i_enter_valid_password() throws Throwable {
 		Log.startTestStep("I enter valid password");
 		System.out.println("I enter valid password : code running");
-	     LoginPage.enterPassword(driver,password);
+	     LoginPage.enterPassword(driver,DataReader.readPassword());
 	     System.out.println("End of step");
 	     Log.endTestStep();
 	}

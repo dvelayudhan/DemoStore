@@ -125,3 +125,44 @@
 2016-06-29 10:09:33,324 INFO  [Log] User is logged in successfully 
 2016-06-29 10:09:33,324 INFO  [Log] -EndOfStep- 
 2016-06-29 10:09:33,375 INFO  [Log] Checking if login section is displayed 
+2016-07-19 23:09:26,318 INFO  [Log] $$$ Running step :I enter valid username 
+2016-07-19 23:09:28,975 INFO  [Log] Entered username 
+2016-07-19 23:09:28,976 INFO  [Log] -EndOfStep- 
+2016-07-19 23:09:28,980 INFO  [Log] $$$ Running step :I enter valid password 
+2016-07-19 23:09:29,238 INFO  [Log] Entered password 
+2016-07-19 23:09:29,238 INFO  [Log] -EndOfStep- 
+2016-07-19 23:09:29,241 INFO  [Log] $$$ Running step :I click on Login button 
+2016-07-19 23:09:29,372 INFO  [Log] Clicked on Login button 
+2016-07-19 23:09:29,372 INFO  [Log] -EndOfStep- 
+2016-07-19 23:09:29,375 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-19 23:09:29,403 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-19 23:09:33,956 INFO  [Log] User is logged in successfully 
+2016-07-19 23:09:33,957 INFO  [Log] -EndOfStep- 
+2016-07-19 23:09:54,814 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-19 23:09:54,820 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-19 23:09:54,972 INFO  [Log] User is logged in successfully 
+2016-07-19 23:09:54,973 INFO  [Log] -EndOfStep- 
+2016-07-19 23:10:04,224 ERROR [Log] Error at step : I click on Continue button 
+2016-07-19 23:10:04,249 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-19 23:10:04,286 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-19 23:10:04,417 INFO  [Log] User is logged in successfully 
+2016-07-19 23:10:04,418 INFO  [Log] -EndOfStep- 
+2016-07-19 23:10:09,083 ERROR [Log] Error at step : I click on Continue button 
+2016-07-19 23:10:09,100 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-19 23:10:09,112 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-19 23:10:09,541 INFO  [Log] User is logged in successfully 
+2016-07-19 23:10:09,541 INFO  [Log] -EndOfStep- 
+2016-07-19 23:10:09,696 INFO  [Log] Checking if login section is displayed 
+2016-07-19 23:38:41,805 INFO  [Log] $$$ Running step :I enter valid username 
+2016-07-19 23:38:43,818 INFO  [Log] Entered username 
+2016-07-19 23:38:43,818 INFO  [Log] -EndOfStep- 
+2016-07-19 23:38:43,824 INFO  [Log] $$$ Running step :I enter valid password 
+2016-07-19 23:38:44,077 INFO  [Log] Entered password 
+2016-07-19 23:38:44,077 INFO  [Log] -EndOfStep- 
+2016-07-19 23:38:44,080 INFO  [Log] $$$ Running step :I click on Login button 
+2016-07-19 23:38:44,199 INFO  [Log] Clicked on Login button 
+2016-07-19 23:38:44,200 INFO  [Log] -EndOfStep- 
+2016-07-19 23:38:44,202 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-19 23:38:44,215 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-19 23:38:47,820 INFO  [Log] User is logged in successfully 
+2016-07-19 23:38:47,821 INFO  [Log] -EndOfStep- 

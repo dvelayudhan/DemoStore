@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: demo.onlinestore.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.088 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.019 sec

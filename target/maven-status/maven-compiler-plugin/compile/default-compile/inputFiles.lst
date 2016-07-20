@@ -1,12 +1,13 @@
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\MyHomePage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\ProductDetailPage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\util\Log.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\ProductsPage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\LoginPage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\util\PropertyReader.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\CheckOutPage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\HomePage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\TransactionResultsPage.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\util\DriverFactory.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\util\PageWait.java
-C:\Users\dvelayudhan\Local Cloud\Private\devika.velayudhan\Desktop\Others\Training\Test Automation\onlinestore\src\main\java\pageObjects\ProfilePage.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\LoginPage.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\TransactionResultsPage.java
+C:\Users\Devika\git\DemoStore\src\main\java\util\PropertyReader.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\ProductsPage.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\CheckOutPage.java
+C:\Users\Devika\git\DemoStore\src\main\java\util\Log.java
+C:\Users\Devika\git\DemoStore\src\main\java\util\DriverFactory.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\ProfilePage.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\MyHomePage.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\ProductDetailPage.java
+C:\Users\Devika\git\DemoStore\src\main\java\util\PageWait.java
+C:\Users\Devika\git\DemoStore\src\main\java\pageObjects\HomePage.java
+C:\Users\Devika\git\DemoStore\src\main\java\util\DataReader.java
