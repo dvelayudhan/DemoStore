@@ -1,4 +1,4 @@
-@Smoke @ThisRun
+@Smoke
 Feature: View Checkout Info
 	
 Scenario: View Checkout Info

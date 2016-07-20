@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import util.Log;
 import util.PageWait;
 
 public class CheckOutPage {
@@ -56,12 +57,7 @@ public class CheckOutPage {
 		return driver.findElement(productPrice).getText();
 	}
 	
-	/*public static int productPrice(WebDriver driver)
-	{	
-		String price=null;
-		price= driver.findElement(productPrice).getText();
-		return Integer.parseInt(price.substring(1, price.length()));		
-	}*/
+	
 	
 	public static void setProductPrice(WebDriver driver)
 	{
@@ -75,9 +71,7 @@ public class CheckOutPage {
 	
 	public static String priceTotal(WebDriver driver)
 	{	
-		/*String totalprice=null;
-		totalprice= driver.findElement(priceTotal).getText();
-		return Integer.parseInt(totalprice.substring(1, totalprice.length()));	*/	
+		
 		return driver.findElement(priceTotal).getText();
 	}
 	
@@ -94,9 +88,7 @@ public class CheckOutPage {
 	
 	public static String shippingCost(WebDriver driver)
 	{	
-		/*String shippingcostamount=null;
-		shippingcostamount= driver.findElement(shippingCost).getText();
-		return Integer.parseInt(shippingcostamount.substring(1, shippingcostamount.length()));		*/
+		
 		return driver.findElement(shippingCost).getText();
 	}
 	
@@ -113,9 +105,7 @@ public class CheckOutPage {
 	
 	public static String checkoutTotal(WebDriver driver)
 	{	
-		/*String checkouttotalamount=null;
-		checkouttotalamount= driver.findElement(checkoutTotal).getText();
-		return Integer.parseInt(checkouttotalamount.substring(1, checkouttotalamount.length()));*/
+		
 		return driver.findElement(checkoutTotal).getText();
 	}
 	
@@ -159,7 +149,7 @@ public class CheckOutPage {
 	public static void productQuantityValue(WebDriver driver)
 	{	
 		productquantityvalue = Integer.parseInt(productQuantity(driver).getAttribute("value"));
-		System.out.println("Setting product quantity value as : " + productquantityvalue );
+		Log.info("Setting product quantity value as : " + productquantityvalue );
 	}
 	
 	public static void setProductQuantity(WebDriver driver)

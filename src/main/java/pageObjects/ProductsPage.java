@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
+import util.Log;
 import util.PageWait;
 
 public class ProductsPage {
@@ -34,7 +35,7 @@ public class ProductsPage {
 		{
 			// The page can be fully loaded, and completely within the viewport, but Chromedriver will refuse to click it when the element to be clicked is wrapped inside a div or span, where the webdriver for FF and IE have no issue.
 		    //So a workaround for this is to use SendKeys(Keys.RETURN) instead of click()
-			System.out.println("WebDriverException caught");
+			Log.error("WebDriverException caught");
 			driver.findElement(homeTab).sendKeys(Keys.RETURN);		
 			PageWait.waitTillPageLoad(driver);
 			
@@ -47,7 +48,7 @@ public class ProductsPage {
 		if((driver.findElements(productClass).size())>0)
 		{
 			flag = true;
-			System.out.println("Number of products :" + driver.findElements(productClass).size() );
+			Log.info("Number of products :" + driver.findElements(productClass).size() );
 		}
 		else
 		flag=false;
@@ -74,7 +75,7 @@ public class ProductsPage {
 
 	public static String getprodTitleExpValue()
 	{
-		System.out.println("Inside Products page : Product Title :" +prodTitleExpected );
+		Log.info("Inside Products page : Product Title :" +prodTitleExpected );
 		return prodTitleExpected;
 	}
 	

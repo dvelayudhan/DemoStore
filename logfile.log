@@ -1,355 +1,168 @@
-2016-06-28 17:08:39,943 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-28 17:08:40,000 INFO  [Log] Entered username 
-2016-06-28 17:08:40,000 INFO  [Log] -EndOfStep- 
-2016-06-28 17:08:40,000 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-28 17:08:40,056 INFO  [Log] Entered password 
-2016-06-28 17:08:40,056 INFO  [Log] -EndOfStep- 
-2016-06-28 17:08:40,057 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-28 17:08:40,110 INFO  [Log] Clicked on Login button 
-2016-06-28 17:08:40,110 INFO  [Log] -EndOfStep- 
-2016-06-28 17:08:40,111 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:08:40,116 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:08:43,053 INFO  [Log] User is logged in successfully 
-2016-06-28 17:08:43,053 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:07,266 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-28 17:30:07,321 INFO  [Log] Entered username 
-2016-06-28 17:30:07,321 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:07,322 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-28 17:30:07,374 INFO  [Log] Entered password 
-2016-06-28 17:30:07,374 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:07,375 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-28 17:30:07,423 INFO  [Log] Clicked on Login button 
-2016-06-28 17:30:07,423 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:07,424 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:30:07,429 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:30:09,654 INFO  [Log] User is logged in successfully 
-2016-06-28 17:30:09,655 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:09,657 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:30:09,660 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:30:09,684 INFO  [Log] User is logged in successfully 
-2016-06-28 17:30:09,684 INFO  [Log] -EndOfStep- 
-2016-06-28 17:30:09,736 INFO  [Log] Checking if login section is displayed 
-2016-06-28 17:34:12,630 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-28 17:34:12,687 INFO  [Log] Entered username 
-2016-06-28 17:34:12,688 INFO  [Log] -EndOfStep- 
-2016-06-28 17:34:12,688 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-28 17:34:12,748 INFO  [Log] Entered password 
-2016-06-28 17:34:12,748 INFO  [Log] -EndOfStep- 
-2016-06-28 17:34:12,749 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-28 17:34:12,810 INFO  [Log] Clicked on Login button 
-2016-06-28 17:34:12,810 INFO  [Log] -EndOfStep- 
-2016-06-28 17:34:12,810 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:34:12,811 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:34:15,622 INFO  [Log] User is logged in successfully 
-2016-06-28 17:34:15,622 INFO  [Log] -EndOfStep- 
-2016-06-28 17:34:15,625 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:34:15,627 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:34:15,666 INFO  [Log] User is logged in successfully 
-2016-06-28 17:34:15,666 INFO  [Log] -EndOfStep- 
-2016-06-28 17:34:15,708 INFO  [Log] Checking if login section is displayed 
-2016-06-28 17:39:07,335 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-28 17:39:09,511 INFO  [Log] Entered username 
-2016-06-28 17:39:09,511 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:09,512 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-28 17:39:09,562 INFO  [Log] Entered password 
-2016-06-28 17:39:09,562 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:09,563 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-28 17:39:09,619 INFO  [Log] Clicked on Login button 
-2016-06-28 17:39:09,619 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:09,619 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:39:09,619 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:39:13,645 INFO  [Log] User is logged in successfully 
-2016-06-28 17:39:13,645 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:39,997 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:39:40,000 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:39:40,047 INFO  [Log] User is logged in successfully 
-2016-06-28 17:39:40,047 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:46,234 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:39:46,237 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:39:46,272 INFO  [Log] User is logged in successfully 
-2016-06-28 17:39:46,272 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:56,230 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:39:56,233 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:39:56,273 INFO  [Log] User is logged in successfully 
-2016-06-28 17:39:56,273 INFO  [Log] -EndOfStep- 
-2016-06-28 17:39:56,325 INFO  [Log] Checking if login section is displayed 
-2016-06-28 17:43:19,124 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-28 17:43:19,176 INFO  [Log] Entered username 
-2016-06-28 17:43:19,177 INFO  [Log] -EndOfStep- 
-2016-06-28 17:43:19,177 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-28 17:43:19,229 INFO  [Log] Entered password 
-2016-06-28 17:43:19,229 INFO  [Log] -EndOfStep- 
-2016-06-28 17:43:19,230 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-28 17:43:19,280 INFO  [Log] Clicked on Login button 
-2016-06-28 17:43:19,280 INFO  [Log] -EndOfStep- 
-2016-06-28 17:43:19,281 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:43:19,286 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:43:22,865 INFO  [Log] User is logged in successfully 
-2016-06-28 17:43:22,865 INFO  [Log] -EndOfStep- 
-2016-06-28 17:43:47,524 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:43:47,531 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:43:47,578 INFO  [Log] User is logged in successfully 
-2016-06-28 17:43:47,578 INFO  [Log] -EndOfStep- 
-2016-06-28 17:43:54,089 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:43:54,091 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:43:54,139 INFO  [Log] User is logged in successfully 
-2016-06-28 17:43:54,139 INFO  [Log] -EndOfStep- 
-2016-06-28 17:44:05,599 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-28 17:44:05,600 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-28 17:44:05,641 INFO  [Log] User is logged in successfully 
-2016-06-28 17:44:05,641 INFO  [Log] -EndOfStep- 
-2016-06-28 17:44:05,692 INFO  [Log] Checking if login section is displayed 
-2016-06-29 10:08:46,213 INFO  [Log] $$$ Running step :I enter valid username 
-2016-06-29 10:08:46,269 INFO  [Log] Entered username 
-2016-06-29 10:08:46,269 INFO  [Log] -EndOfStep- 
-2016-06-29 10:08:46,270 INFO  [Log] $$$ Running step :I enter valid password 
-2016-06-29 10:08:46,323 INFO  [Log] Entered password 
-2016-06-29 10:08:46,323 INFO  [Log] -EndOfStep- 
-2016-06-29 10:08:46,324 INFO  [Log] $$$ Running step :I click on Login button 
-2016-06-29 10:08:46,374 INFO  [Log] Clicked on Login button 
-2016-06-29 10:08:46,374 INFO  [Log] -EndOfStep- 
-2016-06-29 10:08:46,375 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-29 10:08:46,389 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-29 10:08:48,579 INFO  [Log] User is logged in successfully 
-2016-06-29 10:08:48,579 INFO  [Log] -EndOfStep- 
-2016-06-29 10:09:14,996 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-29 10:09:14,998 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-29 10:09:15,042 INFO  [Log] User is logged in successfully 
-2016-06-29 10:09:15,042 INFO  [Log] -EndOfStep- 
-2016-06-29 10:09:21,992 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-29 10:09:21,995 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-29 10:09:22,049 INFO  [Log] User is logged in successfully 
-2016-06-29 10:09:22,049 INFO  [Log] -EndOfStep- 
-2016-06-29 10:09:33,282 INFO  [Log] $$$ Running step :I am signed in 
-2016-06-29 10:09:33,284 INFO  [Log] Checking if LogOut link is displayed 
-2016-06-29 10:09:33,324 INFO  [Log] User is logged in successfully 
-2016-06-29 10:09:33,324 INFO  [Log] -EndOfStep- 
-2016-06-29 10:09:33,375 INFO  [Log] Checking if login section is displayed 
-2016-07-19 23:09:26,318 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-19 23:09:28,975 INFO  [Log] Entered username 
-2016-07-19 23:09:28,976 INFO  [Log] -EndOfStep- 
-2016-07-19 23:09:28,980 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-19 23:09:29,238 INFO  [Log] Entered password 
-2016-07-19 23:09:29,238 INFO  [Log] -EndOfStep- 
-2016-07-19 23:09:29,241 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-19 23:09:29,372 INFO  [Log] Clicked on Login button 
-2016-07-19 23:09:29,372 INFO  [Log] -EndOfStep- 
-2016-07-19 23:09:29,375 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-19 23:09:29,403 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-19 23:09:33,956 INFO  [Log] User is logged in successfully 
-2016-07-19 23:09:33,957 INFO  [Log] -EndOfStep- 
-2016-07-19 23:09:54,814 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-19 23:09:54,820 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-19 23:09:54,972 INFO  [Log] User is logged in successfully 
-2016-07-19 23:09:54,973 INFO  [Log] -EndOfStep- 
-2016-07-19 23:10:04,224 ERROR [Log] Error at step : I click on Continue button 
-2016-07-19 23:10:04,249 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-19 23:10:04,286 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-19 23:10:04,417 INFO  [Log] User is logged in successfully 
-2016-07-19 23:10:04,418 INFO  [Log] -EndOfStep- 
-2016-07-19 23:10:09,083 ERROR [Log] Error at step : I click on Continue button 
-2016-07-19 23:10:09,100 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-19 23:10:09,112 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-19 23:10:09,541 INFO  [Log] User is logged in successfully 
-2016-07-19 23:10:09,541 INFO  [Log] -EndOfStep- 
-2016-07-19 23:10:09,696 INFO  [Log] Checking if login section is displayed 
-2016-07-19 23:38:41,805 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-19 23:38:43,818 INFO  [Log] Entered username 
-2016-07-19 23:38:43,818 INFO  [Log] -EndOfStep- 
-2016-07-19 23:38:43,824 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-19 23:38:44,077 INFO  [Log] Entered password 
-2016-07-19 23:38:44,077 INFO  [Log] -EndOfStep- 
-2016-07-19 23:38:44,080 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-19 23:38:44,199 INFO  [Log] Clicked on Login button 
-2016-07-19 23:38:44,200 INFO  [Log] -EndOfStep- 
-2016-07-19 23:38:44,202 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-19 23:38:44,215 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-19 23:38:47,820 INFO  [Log] User is logged in successfully 
-2016-07-19 23:38:47,821 INFO  [Log] -EndOfStep- 
-2016-07-20 08:38:02,889 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 08:38:11,575 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:38:11,596 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:38:32,260 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:38:32,566 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:38:53,206 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:38:53,454 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:42:33,536 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 08:42:35,121 INFO  [Log] Entered username 
-2016-07-20 08:42:35,121 INFO  [Log] -EndOfStep- 
-2016-07-20 08:42:35,124 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 08:42:35,266 INFO  [Log] Entered password 
-2016-07-20 08:42:35,267 INFO  [Log] -EndOfStep- 
-2016-07-20 08:42:35,269 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 08:42:35,355 INFO  [Log] Clicked on Login button 
-2016-07-20 08:42:35,355 INFO  [Log] -EndOfStep- 
-2016-07-20 08:42:35,358 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:42:35,371 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:42:38,362 INFO  [Log] User is logged in successfully 
-2016-07-20 08:42:38,363 INFO  [Log] -EndOfStep- 
-2016-07-20 08:42:49,960 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:42:49,972 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:42:50,083 INFO  [Log] User is logged in successfully 
-2016-07-20 08:42:50,083 INFO  [Log] -EndOfStep- 
-2016-07-20 08:43:20,033 ERROR [Log] Error at step : I click on Continue button 
-2016-07-20 08:43:20,045 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:43:20,052 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:43:20,136 INFO  [Log] User is logged in successfully 
-2016-07-20 08:43:20,136 INFO  [Log] -EndOfStep- 
-2016-07-20 08:43:26,545 ERROR [Log] Error at step : I click on Continue button 
-2016-07-20 08:43:26,564 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 08:43:26,589 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 08:43:26,780 INFO  [Log] User is logged in successfully 
-2016-07-20 08:43:26,780 INFO  [Log] -EndOfStep- 
-2016-07-20 08:43:27,120 INFO  [Log] Checking if login section is displayed 
-2016-07-20 09:21:11,523 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:21:13,090 INFO  [Log] Entered username 
-2016-07-20 09:21:13,090 INFO  [Log] -EndOfStep- 
-2016-07-20 09:21:13,093 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 09:21:13,241 INFO  [Log] Entered password 
-2016-07-20 09:21:13,242 INFO  [Log] -EndOfStep- 
-2016-07-20 09:21:13,243 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 09:21:13,343 INFO  [Log] Clicked on Login button 
-2016-07-20 09:21:13,343 INFO  [Log] -EndOfStep- 
-2016-07-20 09:21:13,345 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 09:21:13,357 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 09:21:16,044 INFO  [Log] User is logged in successfully 
-2016-07-20 09:21:16,044 INFO  [Log] -EndOfStep- 
-2016-07-20 09:25:23,164 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:25:24,745 INFO  [Log] Entered username 
-2016-07-20 09:25:24,745 INFO  [Log] -EndOfStep- 
-2016-07-20 09:25:24,747 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 09:25:24,893 INFO  [Log] Entered password 
-2016-07-20 09:25:24,894 INFO  [Log] -EndOfStep- 
-2016-07-20 09:25:24,897 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 09:25:24,996 INFO  [Log] Clicked on Login button 
-2016-07-20 09:25:24,996 INFO  [Log] -EndOfStep- 
-2016-07-20 09:25:24,998 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 09:25:25,017 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 09:25:29,176 INFO  [Log] User is logged in successfully 
-2016-07-20 09:25:29,176 INFO  [Log] -EndOfStep- 
-2016-07-20 09:37:36,810 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:37:38,822 INFO  [Log] Entered username 
-2016-07-20 09:37:38,823 INFO  [Log] -EndOfStep- 
-2016-07-20 09:37:38,826 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 09:37:38,991 INFO  [Log] Entered password 
-2016-07-20 09:37:38,991 INFO  [Log] -EndOfStep- 
-2016-07-20 09:37:38,994 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 09:37:39,144 INFO  [Log] Clicked on Login button 
-2016-07-20 09:37:39,144 INFO  [Log] -EndOfStep- 
-2016-07-20 09:37:39,147 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 09:37:39,164 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 09:37:44,308 INFO  [Log] User is logged in successfully 
-2016-07-20 09:37:44,309 INFO  [Log] -EndOfStep- 
-2016-07-20 09:44:05,033 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:44:06,647 INFO  [Log] Entered username 
-2016-07-20 09:44:06,647 INFO  [Log] -EndOfStep- 
-2016-07-20 09:44:06,650 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 09:44:06,786 INFO  [Log] Entered password 
-2016-07-20 09:44:06,786 INFO  [Log] -EndOfStep- 
-2016-07-20 09:44:06,788 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 09:44:06,888 INFO  [Log] Clicked on Login button 
-2016-07-20 09:44:06,888 INFO  [Log] -EndOfStep- 
-2016-07-20 09:44:06,892 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 09:44:06,901 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 09:44:11,282 INFO  [Log] User is logged in successfully 
-2016-07-20 09:44:11,282 INFO  [Log] -EndOfStep- 
-2016-07-20 09:53:45,643 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:56:39,101 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 09:56:46,442 INFO  [Log] Entered username 
-2016-07-20 09:56:46,443 INFO  [Log] -EndOfStep- 
-2016-07-20 09:56:46,446 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 09:56:46,589 INFO  [Log] Entered password 
-2016-07-20 09:56:46,589 INFO  [Log] -EndOfStep- 
-2016-07-20 09:56:46,591 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 09:56:46,702 INFO  [Log] Clicked on Login button 
-2016-07-20 09:56:46,703 INFO  [Log] -EndOfStep- 
-2016-07-20 09:56:46,705 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 09:56:46,717 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 09:56:55,158 INFO  [Log] User is logged in successfully 
-2016-07-20 09:56:55,158 INFO  [Log] -EndOfStep- 
-2016-07-20 10:07:29,196 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 10:07:29,399 INFO  [Log] Entered username 
-2016-07-20 10:07:29,400 INFO  [Log] -EndOfStep- 
-2016-07-20 10:07:29,401 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 10:07:29,593 INFO  [Log] Entered password 
-2016-07-20 10:07:29,593 INFO  [Log] -EndOfStep- 
-2016-07-20 10:07:29,595 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 10:07:29,754 INFO  [Log] Clicked on Login button 
-2016-07-20 10:07:29,754 INFO  [Log] -EndOfStep- 
-2016-07-20 10:07:29,757 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:07:29,767 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:07:44,022 INFO  [Log] User is logged in successfully 
-2016-07-20 10:07:44,023 INFO  [Log] -EndOfStep- 
-2016-07-20 10:19:20,146 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 10:19:20,280 INFO  [Log] Entered username 
-2016-07-20 10:19:20,280 INFO  [Log] -EndOfStep- 
-2016-07-20 10:19:20,282 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 10:19:20,417 INFO  [Log] Entered password 
-2016-07-20 10:19:20,417 INFO  [Log] -EndOfStep- 
-2016-07-20 10:19:20,419 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 10:19:20,560 INFO  [Log] Clicked on Login button 
-2016-07-20 10:19:20,560 INFO  [Log] -EndOfStep- 
-2016-07-20 10:19:20,563 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:19:20,580 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:19:33,898 INFO  [Log] User is logged in successfully 
-2016-07-20 10:19:33,899 INFO  [Log] -EndOfStep- 
-2016-07-20 10:20:03,739 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:20:03,750 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:20:09,776 INFO  [Log] User is logged in successfully 
-2016-07-20 10:20:09,776 INFO  [Log] -EndOfStep- 
-2016-07-20 10:20:32,699 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:20:32,803 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:20:37,861 INFO  [Log] User is logged in successfully 
-2016-07-20 10:20:37,861 INFO  [Log] -EndOfStep- 
-2016-07-20 10:32:17,965 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 10:32:18,191 INFO  [Log] Entered username 
-2016-07-20 10:32:18,191 INFO  [Log] -EndOfStep- 
-2016-07-20 10:32:18,193 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 10:32:18,378 INFO  [Log] Entered password 
-2016-07-20 10:32:18,379 INFO  [Log] -EndOfStep- 
-2016-07-20 10:32:18,381 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 10:32:18,544 INFO  [Log] Clicked on Login button 
-2016-07-20 10:32:18,544 INFO  [Log] -EndOfStep- 
-2016-07-20 10:32:18,547 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:32:18,559 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:32:32,019 INFO  [Log] User is logged in successfully 
-2016-07-20 10:32:32,019 INFO  [Log] -EndOfStep- 
-2016-07-20 10:33:16,697 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:33:16,707 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:33:21,011 INFO  [Log] User is logged in successfully 
-2016-07-20 10:33:21,011 INFO  [Log] -EndOfStep- 
-2016-07-20 10:33:50,007 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:33:50,052 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:33:55,230 INFO  [Log] User is logged in successfully 
-2016-07-20 10:33:55,230 INFO  [Log] -EndOfStep- 
-2016-07-20 10:34:21,223 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:34:21,231 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:34:26,371 INFO  [Log] User is logged in successfully 
-2016-07-20 10:34:26,371 INFO  [Log] -EndOfStep- 
-2016-07-20 10:34:26,483 INFO  [Log] Checking if login section is displayed 
-2016-07-20 10:42:26,816 INFO  [Log] $$$ Running step :I enter valid username 
-2016-07-20 10:42:27,051 INFO  [Log] Entered username 
-2016-07-20 10:42:27,051 INFO  [Log] -EndOfStep- 
-2016-07-20 10:42:27,056 INFO  [Log] $$$ Running step :I enter valid password 
-2016-07-20 10:42:27,278 INFO  [Log] Entered password 
-2016-07-20 10:42:27,279 INFO  [Log] -EndOfStep- 
-2016-07-20 10:42:27,282 INFO  [Log] $$$ Running step :I click on Login button 
-2016-07-20 10:42:27,491 INFO  [Log] Clicked on Login button 
-2016-07-20 10:42:27,491 INFO  [Log] -EndOfStep- 
-2016-07-20 10:42:27,495 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:42:27,514 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:42:44,008 INFO  [Log] User is logged in successfully 
-2016-07-20 10:42:44,008 INFO  [Log] -EndOfStep- 
-2016-07-20 10:43:39,702 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:43:39,721 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:43:44,703 INFO  [Log] User is logged in successfully 
-2016-07-20 10:43:44,703 INFO  [Log] -EndOfStep- 
-2016-07-20 10:44:07,342 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:44:07,404 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:44:12,705 INFO  [Log] User is logged in successfully 
-2016-07-20 10:44:12,705 INFO  [Log] -EndOfStep- 
-2016-07-20 10:44:40,716 INFO  [Log] $$$ Running step :I am signed in 
-2016-07-20 10:44:40,800 INFO  [Log] Checking if LogOut link is displayed 
-2016-07-20 10:44:46,200 INFO  [Log] User is logged in successfully 
-2016-07-20 10:44:46,200 INFO  [Log] -EndOfStep- 
-2016-07-20 10:44:46,399 INFO  [Log] Checking if login section is displayed 
+2016-07-20 12:13:31,832 INFO  [Log] $$$ Running step :I load the website url : code running 
+2016-07-20 12:13:31,834 INFO  [Log] Load url :http://store.demoqa.com/ 
+2016-07-20 12:13:39,127 INFO  [Log] Driver intialised 
+2016-07-20 12:13:48,770 INFO  [Log] Opened the site 
+2016-07-20 12:13:48,770 INFO  [Log] -EndOfStep- 
+2016-07-20 12:13:48,780 INFO  [Log] $$$ Running step :I navigate to Login page : code running 
+2016-07-20 12:13:53,685 INFO  [Log] Clicked on MyAccount link 
+2016-07-20 12:13:53,685 INFO  [Log] -EndOfStep- 
+2016-07-20 12:13:53,687 INFO  [Log] $$$ Running step :I enter valid username 
+2016-07-20 12:13:53,864 INFO  [Log] Entered username 
+2016-07-20 12:13:53,864 INFO  [Log] -EndOfStep- 
+2016-07-20 12:13:53,866 INFO  [Log] $$$ Running step :I enter valid password 
+2016-07-20 12:13:54,076 INFO  [Log] Entered password 
+2016-07-20 12:13:54,076 INFO  [Log] -EndOfStep- 
+2016-07-20 12:13:54,078 INFO  [Log] $$$ Running step :I click on Login button 
+2016-07-20 12:13:54,249 INFO  [Log] Clicked on Login button 
+2016-07-20 12:13:54,249 INFO  [Log] -EndOfStep- 
+2016-07-20 12:13:54,252 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:13:54,263 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:14:07,358 INFO  [Log] User is logged in  
+2016-07-20 12:14:07,358 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:07,375 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:14:07,411 INFO  [Log] User is at home page 
+2016-07-20 12:14:07,411 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:07,419 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:14:13,739 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:14:13,739 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:13,746 INFO  [Log] $$$ Running step :I can see a list of Products : Code running 
+2016-07-20 12:14:13,900 INFO  [Log] Number of products :3 
+2016-07-20 12:14:13,900 INFO  [Log] Product list is displayed 
+2016-07-20 12:14:16,404 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:16,414 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:14:16,429 INFO  [Log] User is at home page 
+2016-07-20 12:14:16,430 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:16,431 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:14:22,326 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:14:22,327 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:22,328 INFO  [Log] $$$ Running step :I click on item name to see details : Code running 
+2016-07-20 12:14:22,435 INFO  [Log] Set expected value of product title 
+2016-07-20 12:14:28,040 INFO  [Log] Clicked on Product Title 
+2016-07-20 12:14:28,048 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:28,051 INFO  [Log] $$$ Running step :I can see the product Details : code running 
+2016-07-20 12:14:28,054 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:14:28,148 INFO  [Log] Expected product is : iPhone 5 
+2016-07-20 12:14:28,148 INFO  [Log] Displayed product is : iPhone 5 
+2016-07-20 12:14:28,149 INFO  [Log] Details are displayed as expected 
+2016-07-20 12:14:32,762 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:32,766 INFO  [Log] $$$ Running step :I am on Home page : code running 
+2016-07-20 12:14:32,780 INFO  [Log] User is at home page 
+2016-07-20 12:14:32,780 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:32,793 INFO  [Log] $$$ Running step :I navigate to Products page : code running 
+2016-07-20 12:14:37,612 INFO  [Log] Clicked on Product Category tab 
+2016-07-20 12:14:37,612 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:37,615 INFO  [Log] $$$ Running step :I click on item name to see details : Code running 
+2016-07-20 12:14:37,699 INFO  [Log] Set expected value of product title 
+2016-07-20 12:14:49,138 INFO  [Log] Clicked on Product Title 
+2016-07-20 12:14:49,148 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:49,151 INFO  [Log] $$$ Running step :I click on Add To Cart option : code running 
+2016-07-20 12:14:49,349 INFO  [Log] Clicked on Add To Cart button 
+2016-07-20 12:14:49,420 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:49,423 INFO  [Log] $$$ Running step :I can see the success message : code running 
+2016-07-20 12:14:49,619 INFO  [Log] Pop up is displayed 
+2016-07-20 12:14:51,004 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:14:51,005 INFO  [Log] Correct popup message displayed 
+2016-07-20 12:14:51,212 INFO  [Log] Clicked on Continue shopping link 
+2016-07-20 12:14:55,730 INFO  [Log] -EndOfStep- 
+2016-07-20 12:14:55,738 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:14:55,884 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:14:55,887 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:15:01,348 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:15:01,348 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:01,352 INFO  [Log] $$$ Running step :I can see the item\(s\) in my cart : code running 
+2016-07-20 12:15:01,687 INFO  [Log] Checkout progress bar is displayed 
+2016-07-20 12:15:01,848 INFO  [Log] Number of rows in products table :1 
+2016-07-20 12:15:07,139 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:15:07,159 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:15:12,095 INFO  [Log] User is logged in  
+2016-07-20 12:15:12,095 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:12,097 INFO  [Log] $$$ Running step :I have my personal info stored in my profile : code running 
+2016-07-20 12:15:15,113 INFO  [Log] Clicked on Howdy tab 
+2016-07-20 12:15:15,265 INFO  [Log] Validated that ersonal info is store in profile 
+2016-07-20 12:15:18,369 INFO  [Log] Clicked on OnlineStore tab 
+2016-07-20 12:15:18,373 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:18,374 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:15:18,466 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:15:18,467 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:15:23,170 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:15:23,171 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:23,172 INFO  [Log] $$$ Running step :I click on Continue button : Code running 
+2016-07-20 12:15:23,357 INFO  [Log] Setting product quantity value as : 1 
+2016-07-20 12:15:23,661 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:25,043 INFO  [Log] Infoelement is displayed. 
+2016-07-20 12:15:25,154 INFO  [Log] Firstname is autopupulated correctly : student 
+2016-07-20 12:15:25,244 INFO  [Log] Lastname is autopupulated correctly : tester 
+2016-07-20 12:15:25,244 INFO  [Log] Details are populated correctly 
+2016-07-20 12:15:25,245 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:41,705 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:15:41,729 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:15:54,774 INFO  [Log] User is logged in  
+2016-07-20 12:15:54,774 INFO  [Log] -EndOfStep- 
+2016-07-20 12:15:54,776 INFO  [Log] $$$ Running step :I have my personal info stored in my profile : code running 
+2016-07-20 12:15:56,192 INFO  [Log] Clicked on Howdy tab 
+2016-07-20 12:15:56,373 INFO  [Log] Validated that ersonal info is store in profile 
+2016-07-20 12:16:03,360 INFO  [Log] Clicked on OnlineStore tab 
+2016-07-20 12:16:03,364 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:03,365 INFO  [Log] $$$ Running step :I have added item\(s\) in my cart : code running 
+2016-07-20 12:16:03,448 INFO  [Log] There are items in cart : 1 items 
+2016-07-20 12:16:03,449 INFO  [Log] $$$ Running step :I click on Checkout option : code running 
+2016-07-20 12:16:09,395 INFO  [Log] Clicked on Check Out icon 
+2016-07-20 12:16:09,395 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:09,397 INFO  [Log] $$$ Running step :I click on Continue button : Code running 
+2016-07-20 12:16:09,477 INFO  [Log] Setting product quantity value as : 1 
+2016-07-20 12:16:09,863 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:09,865 INFO  [Log] $$$ Running step :I click on Purchase button : code running 
+2016-07-20 12:16:11,135 INFO  [Log] Info Slid is displayed 
+2016-07-20 12:16:18,358 INFO  [Log] Clicked on Purchase button 
+2016-07-20 12:16:18,361 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:18,365 INFO  [Log] $$$ Running step :I complete the transaction : code running 
+2016-07-20 12:16:18,497 INFO  [Log] Transaction Header title is :Transaction Results 
+2016-07-20 12:16:18,497 INFO  [Log] Transaction header title is displayed 
+2016-07-20 12:16:18,556 INFO  [Log] Inside Products page : Product Title :iPhone 5 
+2016-07-20 12:16:18,557 INFO  [Log] Product title actual value : iPhone 5 
+2016-07-20 12:16:18,557 INFO  [Log] Product title expected value iPhone 5 
+2016-07-20 12:16:18,557 INFO  [Log] Product title is as expected  
+2016-07-20 12:16:18,617 INFO  [Log] Product price actual value : $12.00 
+2016-07-20 12:16:18,617 INFO  [Log] Product price expected value : $12.00 
+2016-07-20 12:16:18,617 INFO  [Log] Product price is as expected 
+2016-07-20 12:16:18,677 INFO  [Log] Product quantity actual value : 1 
+2016-07-20 12:16:18,677 INFO  [Log] Product quantity expected value : 1 
+2016-07-20 12:16:18,677 INFO  [Log] Product quantity is as expected 
+2016-07-20 12:16:18,737 INFO  [Log] Total price actual value : $12.00 
+2016-07-20 12:16:18,737 INFO  [Log] Total price expected value : $12.00 
+2016-07-20 12:16:18,737 INFO  [Log] Total product price is as expected 
+2016-07-20 12:16:18,737 INFO  [Log] All assertions passed : Details are as expected 
+2016-07-20 12:16:25,893 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:16:25,924 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:16:33,371 INFO  [Log] User is logged in  
+2016-07-20 12:16:33,371 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:33,372 INFO  [Log] $$$ Running step :I click on LogOut : code running 
+2016-07-20 12:16:33,509 INFO  [Log] Clicked on log out link 
+2016-07-20 12:16:33,509 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:33,511 INFO  [Log] $$$ Running step :I go to LoginPage : code running 
+2016-07-20 12:16:33,634 INFO  [Log] Navigated to login page 
+2016-07-20 12:16:33,634 INFO  [Log] -EndOfStep- 
+2016-07-20 12:16:33,635 INFO  [Log] Quiting driver 
+2016-07-20 12:33:02,542 INFO  [Log] $$$ Running step :I load the website url : code running 
+2016-07-20 12:33:02,545 INFO  [Log] Load url :http://store.demoqa.com/ 
+2016-07-20 12:35:54,439 INFO  [Log] $$$ Running step :I load the website url : code running 
+2016-07-20 12:35:54,442 INFO  [Log] Load url :http://store.demoqa.com/ 
+2016-07-20 12:36:03,684 INFO  [Log] Driver intialised 
+2016-07-20 12:36:10,015 INFO  [Log] Opened the site 
+2016-07-20 12:36:10,015 INFO  [Log] -EndOfStep- 
+2016-07-20 12:36:10,022 INFO  [Log] $$$ Running step :I navigate to Login page : code running 
+2016-07-20 12:36:15,251 INFO  [Log] Clicked on MyAccount link 
+2016-07-20 12:36:15,251 INFO  [Log] -EndOfStep- 
+2016-07-20 12:36:15,256 INFO  [Log] $$$ Running step :I enter valid username 
+2016-07-20 12:36:15,402 INFO  [Log] Entered username 
+2016-07-20 12:36:15,402 INFO  [Log] -EndOfStep- 
+2016-07-20 12:36:15,404 INFO  [Log] $$$ Running step :I enter valid password 
+2016-07-20 12:36:15,524 INFO  [Log] Entered password 
+2016-07-20 12:36:15,524 INFO  [Log] -EndOfStep- 
+2016-07-20 12:36:15,526 INFO  [Log] $$$ Running step :I click on Login button 
+2016-07-20 12:36:15,653 INFO  [Log] Clicked on Login button 
+2016-07-20 12:36:15,654 INFO  [Log] -EndOfStep- 
+2016-07-20 12:36:15,656 INFO  [Log] $$$ Running step :I am signed in 
+2016-07-20 12:36:15,750 INFO  [Log] Checking if LogOut link is displayed 
+2016-07-20 12:36:26,156 INFO  [Log] User is logged in  
+2016-07-20 12:36:26,156 INFO  [Log] -EndOfStep- 

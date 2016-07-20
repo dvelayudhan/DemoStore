@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="45" failures="2" name="demo.onlinestore.TestRunner" time="2.735" errors="8" skipped="8">
+<testsuite tests="45" failures="0" name="demo.onlinestore.TestRunner" time="1.334" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Devika\Desktop\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3226689475778698256.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Devika\Desktop\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3480837114119864249.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_92/bin/server;C:/Program Files/Java/jre1.8.0_92/bin;C:/Program Files/Java/jre1.8.0_92/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files (x86)\MySQL\MySQL Server 6.0\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Java\jdk1.6.0_04\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\eclipse\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,348 +61,49 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Successful Login with valid credentials" name="Given I load the website url" time="0.006"/>
+  <testcase classname="Scenario: Successful Login with valid credentials" name="Given I load the website url" time="0.004"/>
   <testcase classname="Scenario: Successful Login with valid credentials" name="When I navigate to Login page" time="0"/>
-  <testcase classname="Scenario: Successful Login with valid credentials" name="And I enter valid username" time="0"/>
-  <testcase classname="Scenario: Successful Login with valid credentials" name="And I enter valid password" time="0"/>
+  <testcase classname="Scenario: Successful Login with valid credentials" name="And I enter valid username" time="0.001"/>
+  <testcase classname="Scenario: Successful Login with valid credentials" name="And I enter valid password" time="0.001"/>
   <testcase classname="Scenario: Successful Login with valid credentials" name="And I click on Login button" time="0"/>
   <testcase classname="Scenario: Successful Login with valid credentials" name="Then I am signed in" time="0"/>
-  <testcase classname="Scenario: Successful Login with valid credentials" name="Scenario: Successful Login with valid credentials" time="0.008"/>
+  <testcase classname="Scenario: Successful Login with valid credentials" name="Scenario: Successful Login with valid credentials" time="0.012"/>
   <testcase classname="Scenario: View Products page" name="Given I am on Home page" time="0"/>
   <testcase classname="Scenario: View Products page" name="When I navigate to Products page" time="0"/>
   <testcase classname="Scenario: View Products page" name="Then I can see a list of Products" time="0"/>
   <testcase classname="Scenario: View Products page" name="Scenario: View Products page" time="0.001"/>
   <testcase classname="Scenario: View Product Details" name="Given I am on Home page" time="0"/>
-  <testcase classname="Scenario: View Product Details" name="When I navigate to Products page" time="0.054">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.MyHomePage.clickProductCategoryTab(MyHomePage.java:78)
-	at stepDefinitions.MyHomePageSteps.i_navigate_to_Products_page(MyHomePageSteps.java:46)
-	at ✽.When I navigate to Products page(03ViewProductDetail.feature:6)
-</error>
-    <system-out>I navigate to Products page : code running
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: View Product Details" name="Scenario: View Product Details" time="0.056">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.MyHomePage.clickProductCategoryTab(MyHomePage.java:78)
-	at stepDefinitions.MyHomePageSteps.i_navigate_to_Products_page(MyHomePageSteps.java:46)
-	at ✽.When I navigate to Products page(03ViewProductDetail.feature:6)
-</error>
-  </testcase>
-  <testcase classname="Scenario: View Product Details" name="And I click on item name to see details" time="0.057">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: View Product Details" name="Then I can see the product Details" time="0.057">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add an item to cart" name="Given I am on Home page" time="0.001"/>
-  <testcase classname="Scenario: Add an item to cart" name="When I navigate to Products page" time="0.029">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.MyHomePage.clickProductCategoryTab(MyHomePage.java:78)
-	at stepDefinitions.MyHomePageSteps.i_navigate_to_Products_page(MyHomePageSteps.java:46)
-	at ✽.When I navigate to Products page(04AddToCart.feature:6)
-</error>
-    <system-out>I navigate to Products page : code running
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Add an item to cart" name="Scenario: Add an item to cart" time="0.03">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.MyHomePage.clickProductCategoryTab(MyHomePage.java:78)
-	at stepDefinitions.MyHomePageSteps.i_navigate_to_Products_page(MyHomePageSteps.java:46)
-	at ✽.When I navigate to Products page(04AddToCart.feature:6)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Add an item to cart" name="And I click on item name to see details" time="0.03">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add an item to cart" name="And I click on Add To Cart option" time="0.03">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Add an item to cart" name="Then I can see the success message" time="0.03">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: View Product Details" name="When I navigate to Products page" time="0.001"/>
+  <testcase classname="Scenario: View Product Details" name="And I click on item name to see details" time="0"/>
+  <testcase classname="Scenario: View Product Details" name="Then I can see the product Details" time="0"/>
+  <testcase classname="Scenario: View Product Details" name="Scenario: View Product Details" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="Given I am on Home page" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="When I navigate to Products page" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="And I click on item name to see details" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="And I click on Add To Cart option" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="Then I can see the success message" time="0"/>
+  <testcase classname="Scenario: Add an item to cart" name="Scenario: Add an item to cart" time="0.004"/>
   <testcase classname="Scenario: View checkout item" name="Given I have added item(s) in my cart" time="0"/>
   <testcase classname="Scenario: View checkout item" name="When I click on Checkout option" time="0"/>
-  <testcase classname="Scenario: View checkout item" name="Then I can see the item(s) in my cart" time="0">
-    <failure message="Assertion failed : Items table is not displayed" type="java.lang.AssertionError">java.lang.AssertionError: Assertion failed : Items table is not displayed
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at stepDefinitions.CheckOutPageSteps.i_can_see_the_item_s_in_my_cart(CheckOutPageSteps.java:27)
-	at ✽.Then I can see the item(s) in my cart(05ViewCheckoutYourCart.feature:8)
-</failure>
-    <system-out>I can see the item\(s\) in my cart : code running
-Checkout progress bar is displayed
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: View checkout item" name="Scenario: View checkout item" time="0.001">
-    <failure message="Assertion failed : Items table is not displayed" type="java.lang.AssertionError">java.lang.AssertionError: Assertion failed : Items table is not displayed
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at stepDefinitions.CheckOutPageSteps.i_can_see_the_item_s_in_my_cart(CheckOutPageSteps.java:27)
-	at ✽.Then I can see the item(s) in my cart(05ViewCheckoutYourCart.feature:8)
-</failure>
-  </testcase>
+  <testcase classname="Scenario: View checkout item" name="Then I can see the item(s) in my cart" time="0"/>
+  <testcase classname="Scenario: View checkout item" name="Scenario: View checkout item" time="0"/>
   <testcase classname="Scenario: View Checkout Info" name="Given I am signed in" time="0"/>
   <testcase classname="Scenario: View Checkout Info" name="And I have my personal info stored in my profile" time="0"/>
   <testcase classname="Scenario: View Checkout Info" name="And I have added item(s) in my cart" time="0"/>
   <testcase classname="Scenario: View Checkout Info" name="When I click on Checkout option" time="0"/>
-  <testcase classname="Scenario: View Checkout Info" name="And I click on Continue button" time="0.003">
-    <error message="element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.CheckOutPage.clickOnContinueButton(CheckOutPage.java:178)
-	at stepDefinitions.CheckOutPageSteps.i_click_on_Continue_button(CheckOutPageSteps.java:44)
-	at ✽.And I click on Continue button(06ViewCheckoutInfo.feature:9)
-</error>
-    <system-out>I click on Continue button : Code running
-Setting product quantity value as : 1
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: View Checkout Info" name="Scenario: View Checkout Info" time="0.005">
-    <error message="element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 33 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.CheckOutPage.clickOnContinueButton(CheckOutPage.java:178)
-	at stepDefinitions.CheckOutPageSteps.i_click_on_Continue_button(CheckOutPageSteps.java:44)
-	at ✽.And I click on Continue button(06ViewCheckoutInfo.feature:9)
-</error>
-  </testcase>
-  <testcase classname="Scenario: View Checkout Info" name="Then I can see my info autopopulated" time="0.015">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: View Checkout Info" name="And I click on Continue button" time="0"/>
+  <testcase classname="Scenario: View Checkout Info" name="Then I can see my info autopopulated" time="0.01"/>
+  <testcase classname="Scenario: View Checkout Info" name="Scenario: View Checkout Info" time="0.01"/>
   <testcase classname="Scenario: Checkout and complete transaction" name="Given I am signed in" time="0"/>
   <testcase classname="Scenario: Checkout and complete transaction" name="And I have my personal info stored in my profile" time="0"/>
   <testcase classname="Scenario: Checkout and complete transaction" name="And I have added item(s) in my cart" time="0"/>
   <testcase classname="Scenario: Checkout and complete transaction" name="When I click on Checkout option" time="0"/>
-  <testcase classname="Scenario: Checkout and complete transaction" name="And I click on Continue button" time="0.003">
-    <error message="element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.CheckOutPage.clickOnContinueButton(CheckOutPage.java:178)
-	at stepDefinitions.CheckOutPageSteps.i_click_on_Continue_button(CheckOutPageSteps.java:44)
-	at ✽.And I click on Continue button(07CompleteTransaction.feature:9)
-</error>
-    <system-out>I click on Continue button : Code running
-Setting product quantity value as : 1
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Checkout and complete transaction" name="Scenario: Checkout and complete transaction" time="0.025">
-    <error message="element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 50 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Devika-TOSH&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Devika\AppData\Local\Temp\scoped_dir5556_822}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c063d3ee2bc4e2d2110da90ce956844
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at pageObjects.CheckOutPage.clickOnContinueButton(CheckOutPage.java:178)
-	at stepDefinitions.CheckOutPageSteps.i_click_on_Continue_button(CheckOutPageSteps.java:44)
-	at ✽.And I click on Continue button(07CompleteTransaction.feature:9)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Checkout and complete transaction" name="And I click on Purchase button" time="0.025">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Checkout and complete transaction" name="Then I complete the transaction" time="0.025">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Checkout and complete transaction" name="And I click on Continue button" time="0"/>
+  <testcase classname="Scenario: Checkout and complete transaction" name="And I click on Purchase button" time="0"/>
+  <testcase classname="Scenario: Checkout and complete transaction" name="Then I complete the transaction" time="0"/>
+  <testcase classname="Scenario: Checkout and complete transaction" name="Scenario: Checkout and complete transaction" time="0"/>
   <testcase classname="Scenario: Logout of the website" name="Given I am signed in" time="0"/>
   <testcase classname="Scenario: Logout of the website" name="When I click on LogOut" time="0"/>
   <testcase classname="Scenario: Logout of the website" name="Then I go to LoginPage" time="0"/>
-  <testcase classname="Scenario: Logout of the website" name="Scenario: Logout of the website" time="2.244"/>
+  <testcase classname="Scenario: Logout of the website" name="Scenario: Logout of the website" time="1.29"/>
 </testsuite>

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import util.Log;
 import util.PageWait;
 
 public class TransactionResultsPage {
@@ -44,7 +45,7 @@ public class TransactionResultsPage {
 		String transactionHeaderTitle = transactionHeader(driver).getText();
 		if(flag)
 		{
-			System.out.println("Transaction Header is displayed" + transactionHeaderTitle);
+			Log.info("Transaction Header title is :" + transactionHeaderTitle);
 		}		
 		return flag;
 	}
@@ -57,9 +58,8 @@ public class TransactionResultsPage {
 		boolean flag = expected.equals(actual);
 		if(flag)
 		{			
-			System.out.println("Product title is correct");
-			System.out.println("Actual : " + actual);
-			System.out.println("Expected : " + expected);
+			Log.info("Product title actual value : " + actual);
+			Log.info("Product title expected value " + expected);
 		}
 		return flag;
 	}
@@ -71,9 +71,8 @@ public class TransactionResultsPage {
 		boolean flag = expected.equals(actual);
 		if(flag)
 		{			
-			System.out.println("Product price is correct");
-			System.out.println("Actual : " + actual);
-			System.out.println("Expected : " + expected);
+			Log.info("Product price actual value : " + actual);
+			Log.info("Product price expected value : " + expected);
 		}
 		return flag;
 	}
@@ -87,9 +86,8 @@ public class TransactionResultsPage {
 			flag=true;
 		if(flag)
 		{			
-			System.out.println("Product quantity is correct");
-			System.out.println("Actual : " + actual);
-			System.out.println("Expected : " + expected);
+			Log.info("Product quantity actual value : " + actual);
+			Log.info("Product quantity expected value : " + expected);
 		}
 		return flag;
 	}
@@ -101,9 +99,8 @@ public class TransactionResultsPage {
 		boolean flag = expected.equals(actual);
 		if(flag)
 		{			
-			System.out.println("Total product price is correct");
-			System.out.println("Actual : " + actual);
-			System.out.println("Expected : " + expected);
+			Log.info("Total price actual value : " + actual);
+			Log.info("Total price expected value : " + expected);
 		}
 		return flag;
 	}

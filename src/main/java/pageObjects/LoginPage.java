@@ -40,30 +40,30 @@ public class LoginPage
 	public static WebElement loginSection(WebDriver driver)
 	{
 		return PageWait.waitForElementPresence(driver, loginSection, 10);
-		//return driver.findElement(loginSection);
+		
 	}
 	
 	public static void enterUsername(WebDriver driver ,String username)
 	{
 	    textboxUsername(driver).sendKeys(username);
-	    Log.info("Entered username");
+	    
 	}
 	
 	public static void enterPassword(WebDriver driver ,String password)
 	{
 		textboxPassword(driver).sendKeys(password);
-		Log.info("Entered password");
+		
 	}
 	
 	public static void clickLoginButton(WebDriver driver)
 	{
 		buttonLogIn(driver).click();
-		Log.info("Clicked on Login button");
+		
 		
 	}
 	public static boolean isLoginSectionDisplayed(WebDriver driver)
 	{
-		Log.info("Checking if login section is displayed");
+		
 		return loginSection(driver).isDisplayed();
 	}
 	

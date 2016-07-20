@@ -27,35 +27,33 @@ public class LogInPageSteps extends DriverFactory {
 	@When("^I enter valid username$")
 	public void i_enter_valid_username() throws Throwable {
 		Log.startTestStep("I enter valid username");
-		System.out.println("I enter valid username : code running");
-	    LoginPage.enterUsername(driver,DataReader.readUsername());
-	    System.out.println("End of step");
+		LoginPage.enterUsername(driver,DataReader.readUsername());
+	    Log.info("Entered username");
 	    Log.endTestStep();
 	}
 
 	@When("^I enter valid password$")
 	public void i_enter_valid_password() throws Throwable {
 		Log.startTestStep("I enter valid password");
-		System.out.println("I enter valid password : code running");
-	     LoginPage.enterPassword(driver,DataReader.readPassword());
-	     System.out.println("End of step");
-	     Log.endTestStep();
+	    LoginPage.enterPassword(driver,DataReader.readPassword());
+	    Log.info("Entered password");
+	    Log.endTestStep();
 	}
 
 	@When("^I click on Login button$")
 	public void i_click_on_Login_button() throws Throwable {
-		Log.startTestStep("I click on Login button");
-		System.out.println("I click on Login button : code running");
+	   Log.startTestStep("I click on Login button");
 	   LoginPage.clickLoginButton(driver);
-	   System.out.println("End of step");
+	   Log.info("Clicked on Login button");
 	   Log.endTestStep();
 	}
 
 	@Then("^I go to LoginPage$") //for logout
 	public void i_go_to_LoginPage() throws Throwable {
-		System.out.println("I go to LoginPage : code running");
+	   Log.startTestStep("I go to LoginPage : code running");
 	   Assert.assertTrue(LoginPage.isLoginSectionDisplayed(driver));
-	   System.out.println("End of step");
+	   Log.info("Navigated to login page");
+	   Log.endTestStep();
 	}
 
 }

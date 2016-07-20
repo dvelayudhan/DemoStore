@@ -9,6 +9,7 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import util.DataReader;
 import util.DriverFactory;
+import util.Log;
 import util.PropertyReader;
 
 public class StartingSteps extends DriverFactory {
@@ -18,19 +19,21 @@ public class StartingSteps extends DriverFactory {
 	@Given("^I load the website url$")
 	public void i_load_the_website_url() throws Throwable
 	{
-		System.out.println("I load the website url : code running");
-		System.out.println("Print url :" + DataReader.readUrl());
-		DriverFactory.initialiseDriver();
-		driver.get(DataReader.readUrl());	
-		driver.manage().window().maximize();
 		DOMConfigurator.configure("log4j.xml");
-		System.out.println("Opened the site");	 
-		System.out.println("End of step");
+		Log.startTestStep("I load the website url : code running");
+		Log.info("Load url :" + DataReader.readUrl());
+		DriverFactory.initialiseDriver();
+		Log.info("Driver intialised");
+		driver.get(DataReader.readUrl());	
+		driver.manage().window().maximize();		
+		Log.info("Opened the site");	 
+		Log.endTestStep();
 	}
 	
 	@After ("@Teardown")
 	public void teardown()
 	{
+		Log.info("Quiting driver");
 		driver.quit();
 	}
 	

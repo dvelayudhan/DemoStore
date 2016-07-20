@@ -20,15 +20,15 @@ public class CheckOutPageSteps extends DriverFactory {
 	
 	@Then("^I can see the item\\(s\\) in my cart$")
 	public void i_can_see_the_item_s_in_my_cart() throws Throwable {
-		System.out.println("I can see the item\\(s\\) in my cart : code running");
+		Log.startTestStep("I can see the item\\(s\\) in my cart : code running");
 		Assert.assertTrue("Assertion failed : Checkout Progress Bar is not displayed", CheckOutPage.checkoutProgressBar(driver).isDisplayed());
 		if(CheckOutPage.checkoutProgressBar(driver).isDisplayed())
 		{
-			System.out.println("Checkout progress bar is displayed");
+			Log.info("Checkout progress bar is displayed");
 			Assert.assertTrue("Assertion failed : Items table is not displayed", CheckOutPage.productsTableHeader(driver).isDisplayed());
 			numberOfRowsInProductsTable = CheckOutPage.productsRows(driver).size();
 			Assert.assertTrue("Assertion failed : No products displayed in Products table", (numberOfRowsInProductsTable>0));
-			System.out.println("Number of rows in products table :" +numberOfRowsInProductsTable);
+			Log.info("Number of rows in products table :" +numberOfRowsInProductsTable);
 		}
 		BasePage.clickOnHomeTab(driver);
 		
@@ -38,7 +38,7 @@ public class CheckOutPageSteps extends DriverFactory {
 	@When("^I click on Continue button$")
 	public void i_click_on_Continue_button() throws Exception {
 		try{
-		System.out.println("I click on Continue button : Code running");
+		Log.startTestStep("I click on Continue button : Code running");
 		CheckOutPage.setProductQuantity(driver);
 		CheckOutPage.setProductPrice(driver);
 		CheckOutPage.setPriceTotal(driver);
@@ -48,6 +48,7 @@ public class CheckOutPageSteps extends DriverFactory {
 			Log.error("Error at step : I click on Continue button");
 			throw e;
 		}
+		Log.endTestStep();
 		
 	}
 	
@@ -60,13 +61,13 @@ public class CheckOutPageSteps extends DriverFactory {
 		Assert.assertTrue("Assertion failed : Info Section is not displayed", CheckOutPage.checkInfoSlideIsDisplayed(driver));
 				if(CheckOutPage.checkInfoSlideIsDisplayed(driver))
 				{
-					System.out.println("Infoelement is displayed.");
+					Log.info("Infoelement is displayed.");
 					if(CheckOutPage.firstname(driver).equals(firstname))
 					{
-						System.out.println("Firstname is autopupulated correctly : " + CheckOutPage.firstname(driver) );
+						Log.info("Firstname is autopupulated correctly : " + CheckOutPage.firstname(driver) );
 						if(CheckOutPage.lastname(driver).equals(lastname))
 						{
-							System.out.println("Lastname is autopupulated correctly : " + CheckOutPage.lastname(driver));
+							Log.info("Lastname is autopupulated correctly : " + CheckOutPage.lastname(driver));
 							flag=true;
 						}
 						else
@@ -77,24 +78,28 @@ public class CheckOutPageSteps extends DriverFactory {
 				}
 				else
 				{
-					System.out.println("Infoelement is not displayed");
+					Log.error("Infoelement is not displayed");
 				}
 					if(flag)
 					{
-						System.out.println("Details are populated correctly");
+						Log.info("Details are populated correctly");
 					}
+		Log.endTestStep();
 		BasePage.clickOnHomeTab(driver);
 		
 	}
 	
 	@When("^I click on Purchase button$")
 	public void i_click_on_Purchase_button() throws Throwable {
-		System.out.println("I click on Purchase button : code running");
+		Log.startTestStep("I click on Purchase button : code running");
 		Assert.assertTrue("Assertion failed : CheckOut info section is not displayed" ,CheckOutPage.checkInfoSlideIsDisplayed(driver));
+		Log.info("Info Slid is displayed");
 		CheckOutPage.setShippingCost(driver);
 		CheckOutPage.setCheckoutTotal(driver);
 		CheckOutPage.clickOnPurchaseButton(driver);
+		Log.info("Clicked on Purchase button");
 		PageWait.waitTillPageLoad(driver);
+		Log.endTestStep();
 	}
 
 }
