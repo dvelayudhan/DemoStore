@@ -16,13 +16,7 @@ public class ProductDetailPage {
 	static By popUpDialogueBox = By.xpath("//div[@id='fancy_notification']"); 
 	static By popupMessage= By.xpath("//div[@id='fancy_notification_content']/span"); 
 	static By continueShoppingLink = By.xpath("//a[contains(text(),'Continue Shopping')]");
-	static By homeTab= By.xpath("//nav[@id='main-nav']/ul/li/a");
 	
-	
-	public static WebElement homeTab(WebDriver driver)
-	{
-		return driver.findElement(homeTab);
-	}
 	
 	public static WebElement prodTitle(WebDriver driver)
 	{
@@ -65,20 +59,5 @@ public class ProductDetailPage {
 		addToCartButton(driver).click();
 	}
 	
-	public static void clickOnHomeTab(WebDriver driver)
-	{
-		try{
-			PageWait.waitForElementToBeClickable(driver, homeTab, 10).click();	
-		}
-		catch(WebDriverException e)
-		{
-			// The page can be fully loaded, and completely within the viewport, but Chromedriver will refuse to click it when the element to be clicked is wrapped inside a div or span, where the webdriver for FF and IE have no issue.
-		    //So a workaround for this is to use SendKeys(Keys.RETURN) instead of click()
-			System.out.println("WebDriverException caught");
-			driver.findElement(homeTab).sendKeys(Keys.RETURN);		
-			PageWait.waitTillPageLoad(driver);
-			
-		}
-		
-	}
+	
 }

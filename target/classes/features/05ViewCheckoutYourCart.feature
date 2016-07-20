@@ -1,4 +1,4 @@
-@Smoke
+@Smoke @ThisRun
 
 Feature: View checkout item in shopping cart	
 

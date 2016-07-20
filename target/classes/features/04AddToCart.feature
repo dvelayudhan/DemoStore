@@ -1,4 +1,4 @@
-@Smoke
+@Smoke @ThisRun
 Feature: Add an item to Cart as a signin user
 
 Scenario: Add an item to cart

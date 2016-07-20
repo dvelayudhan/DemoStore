@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pageObjects.BasePage;
 import pageObjects.ProductDetailPage;
 import util.DriverFactory;
 import util.PageWait;
@@ -22,6 +23,7 @@ public class ProductDetailPageSteps extends DriverFactory{
 		System.out.println("expecteds :" +firstProductTitleInList);
 		System.out.println("actuals :" +productTitleOnPage);
 		Assert.assertEquals("Assert for product details page : fail", firstProductTitleInList, productTitleOnPage);
+		BasePage.clickOnHomeTab(driver);
 		System.out.println("End of step");
 		
 	}
@@ -52,7 +54,7 @@ public class ProductDetailPageSteps extends DriverFactory{
 			}
 		else
 			System.out.println("Pop up not identified");
-		ProductDetailPage.clickOnHomeTab(driver);
+		BasePage.clickOnHomeTab(driver);
 		System.out.println("End of step");
 		
 	}

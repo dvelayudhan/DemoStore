@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json"}
 		,features="src/test/resources/features"
 		, glue= {"stepDefinitions"}
-		, tags= {"@ThisRun" }
+		, tags= {"@Smoke" }
 		, monochrome = true
 		//, dryRun= true
 		)

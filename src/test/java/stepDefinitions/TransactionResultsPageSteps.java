@@ -3,6 +3,7 @@ package stepDefinitions;
 import org.junit.Assert;
 
 import cucumber.api.java.en.Then;
+import pageObjects.BasePage;
 import pageObjects.CheckOutPage;
 import pageObjects.TransactionResultsPage;
 import util.DriverFactory;
@@ -18,6 +19,7 @@ public class TransactionResultsPageSteps extends DriverFactory {
 		Assert.assertTrue("Assertion failed : Product quantity is not as expected ", TransactionResultsPage.isProductQuantityAsExpected(driver));
 		Assert.assertTrue("Assertion failed : Total product price is not as expected ", TransactionResultsPage.isTotalProductPriceAsExpected(driver));
 		System.out.println("All assertions passed : Details are as expected");		
+		BasePage.clickOnHomeTab(driver);
 	}
 
 }

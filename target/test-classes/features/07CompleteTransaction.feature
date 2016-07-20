@@ -1,4 +1,4 @@
-@Smoke
+@Smoke @ThisRun
 Feature: Checkout and complete transaction
 
 Scenario: Checkout and complete transaction

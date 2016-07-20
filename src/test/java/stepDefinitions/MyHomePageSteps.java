@@ -8,9 +8,11 @@ import org.openqa.selenium.WebDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pageObjects.BasePage;
 import pageObjects.HomePage;
 import pageObjects.MyHomePage;
 import pageObjects.ProductDetailPage;
+import util.DataReader;
 import util.DriverFactory;
 import util.Log;
 import util.PageWait;
@@ -22,7 +24,7 @@ public class MyHomePageSteps extends DriverFactory {
 	@Given("^I am on Home page$")
 	public void i_am_on_homepage() throws Throwable {
 		System.out.println("I am on Home page : code running");
-	    MyHomePage.clickHomeTab(driver);
+	   Assert.assertTrue("Assertion fail : Not on homepage", driver.getCurrentUrl().equals(DataReader.readUrl()));
 	    System.out.println("End of step");
 	}
 	
@@ -34,6 +36,7 @@ public class MyHomePageSteps extends DriverFactory {
 		PageWait.waitTillPageLoad(driver);
 		Assert.assertTrue(MyHomePage.isLogOutLinkDisplayed(driver));		
 		System.out.println("User is logged in ");
+		BasePage.clickOnHomeTab(driver);
 		Log.info("User is logged in successfully");
 		System.out.println("End of step");
 		Log.endTestStep();

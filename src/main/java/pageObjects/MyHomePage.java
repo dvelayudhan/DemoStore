@@ -9,8 +9,7 @@ import util.PageWait;
 
 public class MyHomePage {
 	
-	static By linkLogout = By.xpath("//div[@id='account_logout']/a");
-	static By homeTab = By.linkText("Home");	
+	static By linkLogout = By.xpath("//div[@id='account_logout']/a");	
 	static By productCategoryTab = By.linkText("Product Category");
 	static By itemCountOnCart = By.xpath("//div[@id='header_cart']/a/em[@class='count']");
 	static By checkOutIcon = By.xpath("//div[@id='header_cart']/a/span[@class='icon']");
@@ -30,11 +29,6 @@ public class MyHomePage {
 	{
 		return PageWait.waitForElementPresence(driver, linkLogout, 10);
 		
-	}
-	
-	public static WebElement homeTab (WebDriver driver)
-	{
-		return driver.findElement(homeTab);
 	}
 	
 	public static WebElement productCategoryTab(WebDriver driver)
@@ -67,11 +61,6 @@ public class MyHomePage {
 	{
 	 linkLogOut(driver).click();
 	}	
-	
-	public static void clickHomeTab(WebDriver driver)
-	{
-		homeTab(driver).click();
-	}
 	
 	public static void clickProductCategoryTab(WebDriver driver)
 	{

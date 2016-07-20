@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pageObjects.BasePage;
 import pageObjects.CheckOutPage;
 import pageObjects.ProfilePage;
 import util.DriverFactory;
@@ -29,7 +30,7 @@ public class CheckOutPageSteps extends DriverFactory {
 			Assert.assertTrue("Assertion failed : No products displayed in Products table", (numberOfRowsInProductsTable>0));
 			System.out.println("Number of rows in products table :" +numberOfRowsInProductsTable);
 		}
-		//here get the values and store them
+		BasePage.clickOnHomeTab(driver);
 		
 		
 	}
@@ -82,7 +83,7 @@ public class CheckOutPageSteps extends DriverFactory {
 					{
 						System.out.println("Details are populated correctly");
 					}
-		
+		BasePage.clickOnHomeTab(driver);
 		
 	}
 	

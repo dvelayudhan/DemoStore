@@ -18,6 +18,7 @@ public class ProductsPageSteps extends DriverFactory {
 		System.out.println("I can see a list of Products : Code running");
 		Assert.assertTrue("Assert pass", ProductsPage.isproductsListDisplayed(driver));
 		System.out.println("product list is displayed");
+		ProductsPage.clickOnHomeTab(driver);
 		System.out.println("End of step");
 		
 	}
