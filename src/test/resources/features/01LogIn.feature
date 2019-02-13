@@ -1,6 +1,7 @@
 @Smoke @SetUp @ThisRun @Log
 Feature: LoginAction
 
+#Happy path scenario
 Scenario: Successful Login with valid credentials
 Given I load the website url
  When I navigate to Login page
